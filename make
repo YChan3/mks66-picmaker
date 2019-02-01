@@ -1,5 +1,5 @@
-all:
+all :
 	python test.py
-clean:
+clean :
 	rm *.ppm
 	rm *.png
