@@ -20,7 +20,7 @@ def body(file):
 
             r = y
             b = x
-            g = abs(x - y)
+            g = 250 % (abs(x - y)+1)
 
             file.write("{0} {1} {2}    ".format(r,g,b))
         file.write("\n")
